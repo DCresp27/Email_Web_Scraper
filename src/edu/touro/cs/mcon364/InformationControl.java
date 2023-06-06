@@ -30,10 +30,6 @@ public class InformationControl {
 
 
 
-    //will be also be long and thus be avoided
-    private String url = "https://www.touro.edu/";
-
-
     public InformationControl() {
 
 

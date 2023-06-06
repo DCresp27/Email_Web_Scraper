@@ -1,0 +1,9 @@
+Make class for Scraping, thread will use JSoup which will be used to turn the page into a String which can be looked through.
+
+For single threading, have a while loop which will end when emailFound == 10,000.
+As we go through the loop, we scan for links and add them to our custom queue which will ensure no duplicates.
+The custom queuee will use a set to do this.
+Then I will do the same will emails, which will be be saved and kept track of in th variable.
+If the while loop is true, then it will pull a link off the stack of links and starts scraping.
+
+Then it will have a method to iterate through the emails and add them to a database in one shot.
